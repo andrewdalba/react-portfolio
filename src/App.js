@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from "./components/Navbar/Navbar";
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,8 +14,11 @@ function App() {
     <Router>
     <Navbar/>
     <Home/>
+    <Portfolio/>
+    <Contact/>
     <div>
         <Route exact path="/home" component={Home} />
+        <Route exact path="/contact" component={Contact} />
     </div>
     </Router>
 
