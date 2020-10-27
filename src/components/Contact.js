@@ -11,7 +11,7 @@ function Contact() {
                         <div className="page-header">
                             <h1>Contact Information</h1>
                         </div>
-                        <div className="row">
+                        <div className="row" id="contactBody">
                             <div className="col-sm-12 col-md-5 col-lg-6">
                                 <h3>Cell Phone:</h3>
                                 <p>
@@ -28,9 +28,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-4 col-lg-4">
+                    <div className="col-sm-12 col-md-4 col-lg-4 ">
                         <div className="card mt-2">
-                            <div className="card-body">
+                            <div className="card-body followMeCard">
                                 <h5 className="card-title">Follow me:</h5>
                                 <ul className="nav justify-content-center">
                                     <li className="nav-item">

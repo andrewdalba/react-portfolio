@@ -1,10 +1,24 @@
+
 .clickableImg{
     width: 100%;
-    height: 30vh;
+    /* height: 30vh; */
+    height: 250px;
     object-fit: cover;
 }
 
 .clickableImg:hover{
     cursor: pointer;
     opacity: 70%;
+}
+
+.followMeCard{
+    background-color: rgb(153, 158, 163, 0.4);
+}
+
+.card{
+    margin-bottom: 45px;
+}
+
+#contactBody{
+    margin-left: 20px;
 }
