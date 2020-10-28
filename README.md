@@ -4,4 +4,4 @@
 https://github.com/andrewdalba/react-portfolio 
 
 ## Link To Deployed Site
-https://andrewdalba.github.io/react-portfolio/ 
+https://andrewdalba.github.io/react-portfolio/index.html 
