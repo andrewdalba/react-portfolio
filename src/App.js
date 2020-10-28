@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Navbar from "./components/Navbar/Navbar";
 import Contact from './components/Contact.js';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,21 +22,8 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
     </div>
+    <Footer/>
     </Router>
-
-    // <Router>
-    //   <NavBar />
-    //   <Home/>
-    //   <About />
-    //   <Portfolio />
-    //   <Contact />
-    //   <div>
-    //     <Route exact path="/home" component={Home} />
-    //     <Route exact path="/about" component={About} />
-    //     <Route exact path="/portfolio" component={Portfolio} />
-    //     <Route exact path="/contact" component={Contact} />
-    //   </div>
-    // </Router>
   );
 }
 
