@@ -1,7 +1,30 @@
 #homeSection{
-    margin-bottom: 45px;
+    margin-bottom: auto;
+    /* height: 100vh; */
+    background-color: rgb(211, 211, 211, 0.1);
+    border-radius: 10px;
+    color: honeydew;
+
 }
 
 #imageOfMe{
     width: 250px;
 }
+
+.masthead {
+    position: relative;
+    /* object-fit: 100% 20%; */
+    width: 100%;
+    height: 100vh;
+    /* height: auto; */
+    /* min-height: 35rem; */
+    /* padding: 15rem 0; */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(./purpleBackground.png); */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%); */
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 75%, rgb(255, 255, 255) 100%); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+ }  
+ 

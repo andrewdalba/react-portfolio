@@ -5,7 +5,8 @@ import './pages.css';
 function Contact() {
     return (
         <Fragment>
-            <div className="container">
+            <div></div>
+            <div className="container" id="contactSection">
                 <div className="row">
                     <div className="col-sm-12 col-md-8 col-lg-8">
                         <div className="page-header">

@@ -5,7 +5,8 @@ import './pages.css';
 function Portfolio() {
     return (
         <Fragment>
-           <main className="container">
+           <main className="container" id="portfolioSection">
+               <h1>Portfolio</h1>
         <div className="grid-container">
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-4">

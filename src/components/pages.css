@@ -13,6 +13,7 @@
 
 .followMeCard{
     background-color: rgb(153, 158, 163, 0.4);
+
 }
 
 .card{
@@ -22,3 +23,15 @@
 #contactBody{
     margin-left: 20px;
 }
+
+#portfolioSection{
+    padding-top: 45px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+}
+
+#contactSection{
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
